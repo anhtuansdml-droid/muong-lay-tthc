@@ -1,0 +1,19 @@
+<!doctype html>
+<html lang="vi">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Mường Lay TTHC — Thống kê</title>
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<header class="hero"><div class="wrap"><div class="brand">UBND PHƯỜNG MƯỜNG LAY - ĐIỆN BIÊN</div><h1>THỐNG KÊ THỦ TỤC HÀNH CHÍNH</h1><p>Dữ liệu TTHC Điện Biên được đồng bộ tự động</p></div></header>
+<main class="wrap">
+<section class="toolbar"><input id="q" placeholder="Tìm mã hoặc tên TTHC..."><select id="field"><option value="">Tất cả lĩnh vực</option></select><select id="level"><option value="">Tất cả cấp thực hiện</option></select><select id="service"><option value="">Tất cả mức độ DVC</option></select></section>
+<section class="stats"><div class="stat"><span>Tổng số TTHC</span><strong id="total">0</strong></div><div class="stat"><span>Toàn trình</span><strong id="full">0</strong></div><div class="stat"><span>Một phần</span><strong id="partial">0</strong></div><div class="stat"><span>Lĩnh vực</span><strong id="fields">0</strong></div></section>
+<section class="grid"><article class="card"><h2>Mức độ dịch vụ công</h2><div id="serviceChart" class="bars"></div></article><article class="card"><h2>Cấp thực hiện</h2><div id="levelChart" class="bars"></div></article></section>
+<section class="grid"><article class="card"><h2>Thống kê theo lĩnh vực</h2><div id="fieldChart" class="bars"></div></article><article class="card"><h2>Thống kê theo cơ quan công bố</h2><div id="agencyChart" class="bars"></div></article></section>
+<section class="card"><div class="cardhead"><h2>Danh sách TTHC</h2><button id="refresh">↻ Làm mới</button></div><div class="tablewrap"><table><thead><tr><th>STT</th><th>Mã TTHC</th><th>Tên TTHC</th><th>Lĩnh vực</th><th>Cấp thực hiện</th><th>Mức độ</th></tr></thead><tbody id="tbody"><tr><td colspan="6" class="empty">Đang tải dữ liệu...</td></tr></tbody></table></div><div class="pager"><button id="prev">← Trước</button><span id="pageInfo">Trang 1</span><button id="next">Sau →</button></div></section>
+<p id="meta" class="meta"></p>
+</main>
+<script src="js/thong-ke.js"></script>
+</body></html>
