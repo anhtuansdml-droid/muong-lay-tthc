@@ -1,0 +1,24 @@
+{
+  "source": "https://docs.google.com/spreadsheets/d/e/2PACX-1vQk2DNzNnpsDR4wTrzBjoy7aKtDKDeubqvnyBdlJstAzxobagxsvSo8kJX2TI9dXHlBMbUjO2htStuw/pub?gid=226385689&single=true&output=csv",
+  "province": "Điện Biên",
+  "updated_at": "2026-10-12T17:57:17.663672+00:00",
+  "count": 19682,
+  "headers": [
+    "STT",
+    "MaTTHC",
+    "Tên TTHC",
+    "MaDVC",
+    "TenDVC",
+    "TenCQTH",
+    "MaCQTH",
+    "MucDo",
+    "Trạng thái",
+    "LinhVuc",
+    "LoaiHeThong",
+    "CapThucHien",
+    "Citizen URL",
+    "Cơ quan công bố",
+    "Cập nhật lúc 19:19:30 ngày 08/10/2026"
+  ],
+  "sync_status": "success"
+}
