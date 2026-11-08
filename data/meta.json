@@ -1,8 +1,8 @@
 {
   "source": "https://docs.google.com/spreadsheets/d/e/2PACX-1vQk2DNzNnpsDR4wTrzBjoy7aKtDKDeubqvnyBdlJstAzxobagxsvSo8kJX2TI9dXHlBMbUjO2htStuw/pub?gid=226385689&single=true&output=csv",
   "province": "Điện Biên",
-  "updated_at": "2026-11-08T02:26:09.424552+00:00",
-  "count": 21839,
+  "updated_at": "2026-11-08T10:14:47.977213+00:00",
+  "count": 21820,
   "headers": [
     "STT",
     "MaTTHC",
@@ -18,7 +18,7 @@
     "CapThucHien",
     "Citizen URL",
     "Cơ quan công bố",
-    "Cập nhật lúc 08:40:25 ngày 01/11/2026"
+    "Cập nhật lúc 13:54:12 ngày 08/11/2026"
   ],
   "sync_status": "success"
 }
